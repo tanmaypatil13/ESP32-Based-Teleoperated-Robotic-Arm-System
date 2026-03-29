@@ -93,12 +93,11 @@ void home_position(){
 }
 
 🛠️ Setup Instructions
-    1. Install Libraries
+   1. Install Libraries
         Wire.h
         Adafruit_PWMServoDriver
         Bluepad32
-
-    2. Upload Code
+   2. Upload Code
         Select ESP32 board in Arduino IDE
         Upload the code
         3. Pair PS4 Controller
@@ -106,14 +105,14 @@ void home_position(){
         Pair controller using Bluepad32
 
 
-    ⚠️ Notes
+  Notes
         Use external power supply (≥5A)
         Do not power servos from ESP32
         Calibrate SERVOMIN and SERVOMAX
         Avoid mechanical over-rotation
 
 
-    🚀 Future Improvements
+   Future Improvements
         Mobile App Control
         Motion Recording
         AI Object Detection
