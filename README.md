@@ -8,12 +8,12 @@ ESP32-based 6DOF robotic arm controlled wirelessly via PS4 controller using Blue
 ![Driver](https://img.shields.io/badge/PWM-PCA9685-orange)
 ![License](https://img.shields.io/badge/License-Open--Source-lightgrey)
 
----
+
 
 📌 Overview
 This project demonstrates a 6DOF robotic arm controlled wirelessly using a PS4 controller and ESP32. The PCA9685 PWM driver enables smooth and precise control of multiple servo motors, while Bluepad32 provides seamless Bluetooth communication.
 
----
+
   Features
 - Wireless PS4 controller control (Bluetooth)
 - 6DOF robotic arm
@@ -22,7 +22,7 @@ This project demonstrates a 6DOF robotic arm controlled wirelessly using a PS4 c
 - Pressure-sensitive gripper (L2/R2)
 - One-button home position reset
 
----
+
 
   Hardware Requirements
 - ESP32 Development Board  
@@ -32,7 +32,7 @@ This project demonstrates a 6DOF robotic arm controlled wirelessly using a PS4 c
 - External 5V–6V Power Supply (≥5A recommended)  
 - Jumper Wires  
 
----
+
 
  Wiring Connections
 
@@ -43,7 +43,7 @@ This project demonstrates a 6DOF robotic arm controlled wirelessly using a PS4 c
 | SDA | GPIO 21 |
 | SCL | GPIO 22 |
 
->  Always use an external power supply for servos.
+ Always use an external power supply for servos.
 
  Servo Mapping
 
@@ -56,9 +56,9 @@ Shoulder Right  ->2 |
  Wrist Pitch -> 4 |
  Wrist Roll -> 5 |
  Gripper -> 6 |
----
 
- Controller Mapping
+
+ Controller Mapping _keys
 
 | Control | Action |
 
@@ -72,7 +72,6 @@ Shoulder Right  ->2 |
 | L2 Trigger | Open gripper |
 | Y Button | Home position |
 
----
 
 ⚙️ Working Principle
 - ESP32 connects to PS4 controller via Bluetooth (Bluepad32)
