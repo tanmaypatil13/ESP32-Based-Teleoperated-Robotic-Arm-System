@@ -45,19 +45,17 @@ This project demonstrates a 6DOF robotic arm controlled wirelessly using a PS4 c
 
 >  Always use an external power supply for servos.
 
-
-
  Servo Mapping
 
 | Joint | Channel |
 
-| Base | 0 |
-| Shoulder Left | 1 |
-| Shoulder Right | 2 |
-| Elbow | 3 |
-| Wrist Pitch | 4 |
-| Wrist Roll | 5 |
-| Gripper | 6 |
+ Base -> 0 |
+ Shoulder Left -> 1 |
+Shoulder Right  ->2 |
+ Elbow -> 3 |
+ Wrist Pitch -> 4 |
+ Wrist Roll -> 5 |
+ Gripper -> 6 |
 ---
 
  Controller Mapping
@@ -85,7 +83,7 @@ This project demonstrates a 6DOF robotic arm controlled wirelessly using a PS4 c
 
 
   Robotic arm Home Position
-```cpp
+
 void home_position(){
   moveServo(BASE_SERVO,70);
   moveServo(SHOULDER_LEFT,130);
