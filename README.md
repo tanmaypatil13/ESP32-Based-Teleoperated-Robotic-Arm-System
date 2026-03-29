@@ -83,7 +83,7 @@ Shoulder Right  ->2 |
 
 
   Robotic arm Home Position
-
+git a
 void home_position(){
   moveServo(BASE_SERVO,70);
   moveServo(SHOULDER_LEFT,130);
@@ -118,3 +118,11 @@ void home_position(){
         Mobile App Control
         Motion Recording
         AI Object Detection
+
+   ## 🙌 Credits
+- implemented  by **Tanmay Patil**
+- Libraries used:
+  - Bluepad32
+  - Adafruit PWM Servo Driver
+- Inspired by open-source robotics projects
+ - credicts for the 3d printed robotic arm files "Emre Kalem" inspired by youtube video ->https://youtu.be/CHV36hu9z3E?si=UFmnHgNYdknuTq4j
